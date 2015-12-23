@@ -3,6 +3,7 @@ library(dplyr)
 library(ggplot2)
 library(rgdal)
 library(shiny)
+library(RColorBrewer)
 
 shinyServer(function(input, output) {
   
